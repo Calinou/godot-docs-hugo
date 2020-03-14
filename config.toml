@@ -1,0 +1,13 @@
+baseURL = "https://docs.godotengine.org/"
+languageCode = "en-us"
+title = "Godot Documentation"
+theme = "book"
+
+# Theme is intended for documentation use, therefore it doesn't render taxonomy.
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Theme configuration
+enableGitInfo = true
+
+[params]
+BookMenuBundle = "/menu"

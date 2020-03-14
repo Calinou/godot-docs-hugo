@@ -10,4 +10,5 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 enableGitInfo = true
 
 [params]
-BookMenuBundle = "/menu"
+  # Use the top-level directory to generate menus instead of `docs/`.
+  BookSection = "*"
